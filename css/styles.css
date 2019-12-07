@@ -105,7 +105,8 @@ nav.navbar {
 }
 
 #our_story h3,
-#our_story p {
+#our_story p,
+ {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -147,7 +148,7 @@ nav.navbar {
     border-radius: 5px;
 }
 
-#review h1 {
+#review h1, #menu h2 {
     font-family: 'Lobster', cursive;
     font-size: 5em;
     color: #f8512f;
@@ -160,4 +161,39 @@ nav.navbar {
     font-weight: 300;
     font-size: 2em;
     text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#menu p:first-of-type {
+    color: #f8512f;
+    font-weight: bold;
+}
+
+#menu .container {
+    background-color: white;
+}
+
+#menu {
+    background-image: url(../img/black_linen.png);
+    height: 700px;
+}
+
+#menu h2 {
+    color: white;
+    border-bottom: solid 4px black;
+    
+}
+
+img {
+    border: 2px black;
+}
+
+#menu .row div {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#menu img {
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    padding: 3px;
 }
