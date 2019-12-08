@@ -211,6 +211,19 @@ iframe {
     color: white;
 }
 
+#contact h1 {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#contact h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+#contact h2 p {
+    font-family: 'Raleway', sans-serif;
+}
 #contact .row {
     margin: 20px;
 }
