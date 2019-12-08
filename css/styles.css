@@ -197,3 +197,20 @@ img {
     border-radius: 2px;
     padding: 3px;
 }
+/* MENU */
+
+.contact_page {
+    background-color: #f9512f;
+}
+
+iframe {
+    background-color: #ff6634;
+}
+
+#contact h1, #contact p, #contact h2 {
+    color: white;
+}
+
+#contact .row {
+    margin: 20px;
+}
