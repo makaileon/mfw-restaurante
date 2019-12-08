@@ -214,3 +214,28 @@ iframe {
 #contact .row {
     margin: 20px;
 }
+
+.contact_form {
+    background-color: #ff6634;
+    border: 1px white solid;
+    height: 550px;
+    width: 400px;
+    padding: 20px;
+}
+
+.well {
+    width: 95%;
+}
+
+.robot {
+    display: flex;
+    flex-direction: row;
+}
+
+.well {
+    color: gray;
+}
+
+.message {
+    height: 100px;
+}
