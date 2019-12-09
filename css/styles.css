@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display|Raleway&display=swap');
 
 /* Global */
+
 .container-fluid {
     padding: 0;
     margin: 0;
@@ -121,6 +122,10 @@ nav.navbar {
     z-index: -1;
     position: absolute;
     color: rgba(149, 147, 147, .2);
+}
+
+#our_story p, #our_story .story_year {
+    overflow: hidden;
 }
 
 /* FLEX */
