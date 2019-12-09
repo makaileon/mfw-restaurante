@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display|Raleway&display=swap');
+
 /* Global */
 .container-fluid {
     padding: 0;
@@ -82,4 +84,171 @@ nav.navbar {
 .carousel_caption p {
     color: #f7f7f7;
     
+}
+
+#our_story, #menu, #review, #contact {
+    min-height: 600px;
+}
+
+#our_story h1 {
+    font-family: 'Lobster', sans-serif;
+    color: #f8512f;
+    font-size: 6em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#our_story h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+#our_story h3,
+#our_story p,
+ {
+    font-family: 'Raleway', sans-serif;
+}
+
+#our_story p {
+    font-weight: 300;
+}
+
+.story_year {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 200px;
+    font-weight: 700;
+    z-index: -1;
+    position: absolute;
+    color: rgba(149, 147, 147, .2);
+}
+
+/* FLEX */
+
+.center_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 14rem;
+}
+
+#review {
+    background-image: url(../img/food_review.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#review .center {
+    margin: 0 auto;
+    float: none;
+    background-color: rgba(20, 20, 20, .6);
+    padding: 10px;
+    margin-top: 145px;
+    border-radius: 5px;
+}
+
+#review h1, #menu h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 5em;
+    color: #f8512f;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#review p {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#menu p:first-of-type {
+    color: #f8512f;
+    font-weight: bold;
+}
+
+#menu .container {
+    background-color: white;
+}
+
+#menu {
+    background-image: url(../img/black_linen.png);
+    height: 700px;
+}
+
+#menu h2 {
+    color: white;
+    border-bottom: solid 4px black;
+    
+}
+
+img {
+    border: 2px black;
+}
+
+#menu .row div {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#menu img {
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    padding: 3px;
+}
+/* MENU */
+
+.contact_page {
+    background-color: #f9512f;
+}
+
+iframe {
+    background-color: #ff6634;
+}
+
+#contact h1, #contact p, #contact h2 {
+    color: white;
+}
+
+#contact h1 {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#contact h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+#contact h2 p {
+    font-family: 'Raleway', sans-serif;
+}
+#contact .row {
+    margin: 20px;
+}
+
+.contact_form {
+    background-color: #ff6634;
+    border: 1px white solid;
+    height: 550px;
+    width: 400px;
+    padding: 20px;
+}
+
+.well {
+    width: 95%;
+}
+
+.robot {
+    display: flex;
+    flex-direction: row;
+}
+
+.well {
+    color: gray;
+}
+
+.message {
+    height: 100px;
 }
