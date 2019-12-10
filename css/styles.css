@@ -197,3 +197,58 @@ img {
     border-radius: 2px;
     padding: 3px;
 }
+/* MENU */
+
+.contact_page {
+    background-color: #f9512f;
+}
+
+iframe {
+    background-color: #ff6634;
+}
+
+#contact h1, #contact p, #contact h2 {
+    color: white;
+}
+
+#contact h1 {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#contact h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+#contact h2 p {
+    font-family: 'Raleway', sans-serif;
+}
+#contact .row {
+    margin: 20px;
+}
+
+.contact_form {
+    background-color: #ff6634;
+    border: 1px white solid;
+    height: 550px;
+    width: 400px;
+    padding: 20px;
+}
+
+.well {
+    width: 95%;
+}
+
+.robot {
+    display: flex;
+    flex-direction: row;
+}
+
+.well {
+    color: gray;
+}
+
+.message {
+    height: 100px;
+}
