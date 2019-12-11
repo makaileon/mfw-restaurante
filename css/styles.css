@@ -105,6 +105,10 @@ nav.navbar {
     margin-top: 0;
 }
 
+#our_story h2 {
+    overflow: hidden;
+}
+
 #our_story h3,
 #our_story p,
  {
@@ -124,7 +128,7 @@ nav.navbar {
     color: rgba(149, 147, 147, .2);
 }
 
-#our_story p, #our_story .story_year {
+#our_story .story_year {
     overflow: hidden;
 }
 
@@ -179,7 +183,6 @@ nav.navbar {
 
 #menu {
     background-image: url(../img/black_linen.png);
-    height: 700px;
 }
 
 #menu h2 {
