@@ -172,7 +172,7 @@ nav.navbar {
     text-shadow: 1px 1px 5px #0a0a0a;
 }
 
-#menu p:first-of-type {
+/* #menu p:first-of-type {
     color: #f8512f;
     font-weight: bold;
 }
@@ -205,10 +205,10 @@ img {
     border: 1px solid lightgray;
     border-radius: 2px;
     padding: 3px;
-}
+} */
 /* MENU */
 
-.contact_page {
+/* .contact_page {
     background-color: #f9512f;
 }
 
@@ -260,4 +260,10 @@ iframe {
 
 .message {
     height: 100px;
+} */
+
+.required::after {
+    content: '*';
+    color: red;
+    font-size: 2rem;
 }
